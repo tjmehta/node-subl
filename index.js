@@ -25,7 +25,7 @@ var subl = module.exports = function (args, cb) {
   cb = cb || noop;
 
   var sublCmd = 'subl '+args.join(' ');
-
+  exec(sublCmd, cb);
 };
 subl.openError = function (err) {
   if (err.stack) {
