@@ -6,7 +6,7 @@ function filepathsInStack(stack) {
   var fileArray = stack.match(/\(.*\)/mg);
 
   return fileArray
-    .filter(function () {
+    .filter(function (file) {
       return file.slice(0, 2) == '(/'; // filter filepaths that do not start with slash (internal node files)
     })
     .map(function (file) {
