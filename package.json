@@ -1,0 +1,32 @@
+{
+  "name": "subl",
+  "version": "0.0.1",
+  "description": "open files in sublime from ndoe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjmehta/node-subl.git"
+  },
+  "keywords": [
+    "node",
+    "sublime",
+    "text",
+    "sublime",
+    "subl",
+    "sublime",
+    "text",
+    "2",
+    "sublime",
+    "text",
+    "3",
+    "open"
+  ],
+  "author": "Tejesh Mehta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjmehta/node-subl/issues"
+  }
+}
